@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #709AF5;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+}
+
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 244, 247, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    color: #4f81ef;
+    font-size: 25px;
+    height: 42px;
+    border-radius: 4px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus{
+    background-color: rgba(240, 244, 247, 0.6);
+}
+
+.weather-app{
+    color: #4f81ef;
+    padding: 23px;
+    line-height: 2rem;
+    border-radius: 12px;
+    background-color: rgba(240, 244, 247, 0.7);
+    height: 350px;
+    display: none;
+}
+
+.location-details {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.temp{
+    font-size: 69px;
+    font-weight: bolder;
+    margin: 23px 0;
+    color: #133b90;
+}
+
+.min-max, .weather{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3873f2;
+}
+
+.weather{
+    padding-bottom: 12px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    padding-left: 80px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
